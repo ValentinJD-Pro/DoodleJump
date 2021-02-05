@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Personalize our page to match doodle jump-->
+    <title>Doodle Jump</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="d.ico"/>
+  </head>
+
+
+
+
+  <body>
+    <img src="img\logo.png" alt="Logo"><!--Game logo-->
+    <div id="game"></div> <!--Game board-->
+
+    <script src="game.js"></script><!--Insert game script-->
+
+    <!-- ===================== TEMPLATES ===================== -->
+    <template id="template-grib"><div name="grib" class="defaultGrib"><img src="img/gribouilleur/d.png"></div></template>
+
+    <template id="template-plateforme"><div name="plat" class="defaultPlateforme" id=plateforme></div></template>
+    <template id="template-plateformePourrie"><div name="platP" class="defaultPlateformePourrie" id=plateforme></div></template>
+    <template id="template-plateformeH"><div name="platH" class="defaultPlateformeH" id=plateforme></div></template>
+    <template id="template-plateformeV"><div name="platV" class="defaultPlateformeV" id=plateforme></div></template>
+    <template id="template-plateformeTrampo"><div name="platT" class="defaultPlateformeTrampo" id=plateforme></div></template>
+    <template id="template-plateformeRessort"><div name="platR" class="defaultPlateformeRessort" id=plateforme></div></template>
+
+    <template id="template-monster"><div name="monster" class="defaultMonster" id=monster><img src="img/monster/monster.png" alt=""></div></template>
+    <template id="template-monsterH"><div name="monsterH" class="defaultMonster" id=monster><img src="img/monster/monsterH.png" alt=""></div></template>
+    <template id="template-monsterV"><div name="monsterV" class="defaultMonster" id=monster><img src="img/monster/monsterV.png" alt=""></div></template>
+
+    <template id="template-itemHelico"><div name="itemH" class="defaultItemH" id=item><img src="img/item/itemHeli.png" alt=""></div></template>
+    <template id="template-itemJetpack"><div name="itemJ" class="defaultItemJ" id=item><img src="img/item/itemJet.png" alt=""></div></template>
+    <template id="template-itemRocket"><div name="itemR" class="defaultItemR" id=item><img src="img/item/itemRocket.png" alt=""></div></template>
+    <template id="template-itemPotion"><div name="itemP" class="defaultItemP" id=item><img src="img/item/itemPot.png" alt=""></div></template>
+  </body>
+</html>
